@@ -11,8 +11,8 @@ robot.DataFormat = 'column';
 
 joint_variables = [pi*3/4; -pi/4; 0.3; -pi*3/4];
 % joint_variables = [0;0;0;0];
-joint_variables = [0;0;0];
 
+hold off;
 show(robot, joint_variables);
 axis equal;
 hold on;
