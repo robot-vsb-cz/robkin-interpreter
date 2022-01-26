@@ -14,8 +14,10 @@ for i=1:n_joints+2
     joints(i).t = transpose(rpyxyz(i,4:6));
 end
 
-% get base frame
+% get base frame and store it
 base = joints(1);
+% work on with robot base as identity
+joints(1) = SE3;
 
 % full transrofms in robot base
 for i=2:n_joints+2

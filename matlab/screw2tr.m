@@ -6,9 +6,9 @@ w = screw(1:3,:);
 v = screw(4:6,:);
 
 if type == 1 % revolute joint
-    % obtain point q on the screw axis using Plucker class
-    pl = Plucker([v; w]);
-    q = -pl.closest(tr_prev.t);
+    % obtain point q on the screw axis using parametric equation of line with parameter t = 0
+    q = cross(w,v);
+    
 else % prismatic joint
     % in case of prismatic joints, place it in the previous frame with
     % updated Z axis
