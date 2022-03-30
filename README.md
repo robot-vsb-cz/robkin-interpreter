@@ -1,4 +1,5 @@
 # RobKin Interpreter
+[![DOI](https://zenodo.org/badge/432244546.svg)](https://zenodo.org/badge/latestdoi/432244546)
 
 To test the calculations, run "main.m" script in your Matlab.
 
