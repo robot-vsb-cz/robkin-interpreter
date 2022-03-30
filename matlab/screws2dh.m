@@ -58,10 +58,10 @@ for i=1:n_joints
         joints(i+1).t = Q;
         
     else % Z axes are intersecting or coincident
-        if dot(joints(i).a,w) == 1 % Z axes are coincident 
+        if round(dot(joints(i).a,w),6) == 1 % Z axes are coincident 
             joints(i+1) = joints(i);
             
-        elseif dot(joints(i).a,w) == -1 % Z axes are coincident but differ in orientation
+        elseif round(dot(joints(i).a,w),6) == -1 % Z axes are coincident but differ in orientation
             % rotate the new frame around X by pi [rad]
             joints(i+1) = joints(i)*joints(i).Rx(pi);
             
