@@ -23,8 +23,8 @@ D. Huczala, T. Kot, J. Mlotek, J. Suder and M. Pfurner, "An Automated Conversion
 **bibfile:** 
 
 @inproceedings{Huczala2022,
-  doi = {10.1109/iccma56665.2022.10011595},
-  url = {https://doi.org/10.1109/iccma56665.2022.10011595},
+  doi = {10.1109/ICCMA56665.2022.10011595},
+  url = {https://doi.org/10.1109/ICCMA56665.2022.10011595},
   year = {2022},
   publisher = {{IEEE}},
   author = {Daniel Huczala and Tomas Kot and Jakub Mlotek and Jiri Suder and Martin Pfurner},
